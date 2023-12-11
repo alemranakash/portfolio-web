@@ -10,7 +10,7 @@
     border-radius: 50%;
     width: 150px; 
     height: 150px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     display: inline-block;
     position: relative;
     z-index: 1;
@@ -21,7 +21,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 2px solid #4CAF50; 
+    border: 4px solid #3498db; /* Blue color code */
+
     border-top: 2px solid transparent; 
     border-radius: 50%;
     width: 150px; 

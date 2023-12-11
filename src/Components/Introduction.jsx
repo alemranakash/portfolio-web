@@ -16,10 +16,13 @@ const Introduction = () => {
 
   return (
     <section>
-      <div className="intro-container">
+
+
+     <div>
+       <div className="intro-container">
         <div className="tech-circle"></div>
         <img
-          src="/public/AL-Emran.jpg" 
+          src="/AL-Emran.jpg" 
           alt="Al Emran"
           className="intro-photo"
         />
@@ -27,6 +30,7 @@ const Introduction = () => {
           <p>{texts[textIndex]}</p>
         </div>
       </div>
+     </div>
     </section>
   );
 };

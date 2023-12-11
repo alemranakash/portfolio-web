@@ -1,49 +1,52 @@
-
-import React from 'react';
 import { FaEnvelope, FaLinkedin, FaFacebook, FaGithub } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <section className="mt-8">
-      <div className="flex justify-center space-x-4">
+    <section className="my-20">
+      <h1 className="text-3xl font-bold mb-6 text-center">Contact Me</h1>
+      <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-x-4">
+        {/* Email */}
         <a
           href="mailto:alemeranexpert@gmail.com"
-          className="contact-btn"
+          className="contact-btn bg-gradient-to-r from-purple-500 to-blue-500 text-white py-2 px-4 rounded-full flex items-center space-x-2 hover:from-blue-500 hover:to-purple-500"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaEnvelope className="icon" />
-          Email
+          <span>Email</span>
         </a>
 
+        {/* LinkedIn */}
         <a
-          href="https://www.linkedin.com/in/your-linkedin-username"
-          className="contact-btn"
+          href="https://www.linkedin.com/in/md-al-emran-akash/"
+          className="contact-btn bg-gradient-to-r from-blue-700 to-blue-800 text-white py-2 px-4 rounded-full flex items-center space-x-2 hover:from-blue-800 hover:to-blue-900"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaLinkedin className="icon" />
-          LinkedIn
+          <span>LinkedIn</span>
         </a>
 
+        {/* Facebook */}
         <a
-          href="https://www.facebook.com/your-facebook-username"
-          className="contact-btn"
+          href="https://www.facebook.com/al.emran.akash.75/"
+          className="contact-btn bg-gradient-to-r from-blue-900 to-blue-500 text-white py-2 px-4 rounded-full flex items-center space-x-2 hover:from-blue-500 hover:to-blue-600"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaFacebook className="icon" />
-          Facebook
+          <span>Facebook</span>
         </a>
 
+        {/* GitHub */}
         <a
-          href="https://github.com/your-github-username"
-          className="contact-btn"
+          href="https://github.com/alemranakash"
+          className="contact-btn bg-gradient-to-r from-gray-800 to-gray-900 text-white py-2 px-4 rounded-full flex items-center space-x-2 hover:from-gray-900 hover:to-gray-800"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaGithub className="icon" />
-          GitHub
+          <span>GitHub</span>
         </a>
       </div>
     </section>

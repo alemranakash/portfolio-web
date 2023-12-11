@@ -18,7 +18,7 @@ const ResumeDownload = () => {
     <section className="mt-16">
       {/* <p>Click the button below to download my resume:</p> */}
       <button
-        className="bg-blue-500 text-white font-bold py-2 px-4 rounded flex mx-auto"
+        className="bg-blue-500 text-white font-bold hover:bg-blue-900 py-2 px-4 rounded flex mx-auto"
         onClick={handleDownload}
       >
         Download Resume
